@@ -10,8 +10,8 @@ public class ControlPanel extends JPanel {
 	public JTextField txtUrl;
 
     public ControlPanel() {
-        // grid con 5 filas (una por botón)
-        setLayout(new GridLayout(5, 1, 10, 10));
+        // grid con 6 filas (una por botón)
+        setLayout(new GridLayout(6, 1, 10, 10));
         setBorder(BorderFactory.createEmptyBorder(20, 10, 20, 10));
 
         txtUrl = new JTextField ("https://example.com");
